@@ -69,7 +69,7 @@ else:
     print(num , " is not the multiple of 5")
 '''
 # odd or even 
-
+'''
 num = int(input("Enter a number: "))
 if(num <= 0):
     print("Invalid number");
@@ -77,3 +77,19 @@ elif(num % 2 == 0):
     print(num , " is an even number");
 else:
     print(num , " is an odd number")
+    '''
+
+# Match case
+
+'''
+color = input("Enter the color: ")
+match color:
+    case "Green":
+        print("Go")
+    case "Yellow":
+        print("Look")
+    case "Red":
+        print("Stop")
+    case _:
+        print("Default case wrong")
+        '''
