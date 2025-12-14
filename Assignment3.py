@@ -33,3 +33,13 @@ def merge_list():
 
 merge_list()
 '''
+
+# count unique character
+'''
+
+char = input("Enter a word : ")
+for i in char:
+    if(i  in char):
+        print(i)
+
+'''
